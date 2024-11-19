@@ -23,7 +23,7 @@ public class Menu {
                 System.out.println("0 - Quitter");
                 System.out.print("Votre choix : ");
                 choix = scanner.nextInt();
-            } while (choix > 2 || choix < 0);
+            } while (choix > 4);
 
             switch (choix) {
                 case 0:
